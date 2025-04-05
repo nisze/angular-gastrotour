@@ -1,0 +1,102 @@
+/* cx1.component.scss */
+.receita-box {
+    border: 2px solid #f3e9d2;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px auto;
+    background-color: #FFF9F0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .receita-titulo h2 {
+    font-size: 2rem;
+    color: #5E3023;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 2px dashed #D4A59A;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .receita-conteudo {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .receita-ingredientes, .receita-preparo {
+    flex: 1;
+  }
+  
+  .receita-ingredientes {
+    background: #F8F1E9;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .receita-preparo {
+    background: #F5F5F5;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    color: #5E3023;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #D4A59A;
+    padding-bottom: 5px;
+  }
+  
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  
+  .ingrediente-quantidade {
+    font-weight: bold;
+    color: #8B4513;
+    width: 60px;
+  }
+  
+  .receita-imagem {
+    align-self: center;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .receita-imagem img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 1px solid #E3D5C7;
+    transition: transform 0.3s;
+  }
+  
+  .receita-imagem img:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .receita-conteudo {
+      flex-direction: column;
+    }
+    
+    .receita-imagem {
+      width: 100%;
+    }
+  }
+  .ingrediente-icone {
+    width: 30px;
+    margin-right: 15px;
+  }

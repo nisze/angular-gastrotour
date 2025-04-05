@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AppComponent } from './app.component';
+import { PaveDeMorangoComponent } from './pave-de-morango.component';
 
-describe('AppComponent', () => {
-  let component: AppComponent;
-  let fixture: ComponentFixture<AppComponent>;
+describe('PaveDeMorangoComponent', () => {
+  let component: PaveDeMorangoComponent;
+  let fixture: ComponentFixture<PaveDeMorangoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AppComponent]
+      imports: [PaveDeMorangoComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AppComponent);
+    fixture = TestBed.createComponent(PaveDeMorangoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
